@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    color: #333333;
+    background-color: #f6fbf4;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: normal;
+}
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 40px 40px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d6a4f;
+    padding: 16px 40px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+}
+.menu a {
+    color: white;
+}
+
+.menu a:hover {
+    color: #ffd166;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 280px;
+    margin-top: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background-color: #d8f3dc;
+}
+.hero h2 {
+    font-size: 40px;
+    color: #2d6a4f;
+}
+
+.sub {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #52796f;
+    font-size: 13px;
+}
+
+.btn-wrap {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+.btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #2d6a4f;
+    color: #ffffff;
+    border: 2px solid #2d6a4f;
+}
+.btn.line {
+    background-color: #ffffff;
+    color: #2d6a4f;
+}
+.btn:hover {
+    background-color: #1b4332;
+    color: #ffffff;
+}
+
+#plants h2, #care h2, #shop h2, #news h2 {
+    font-size: 28px;
+    color: #2D6A4F;
+    margin: 40px 0 16px;
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+}
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #ffffff;
+    border: 1px solid #d8f3dc;
+    padding: 24px;
+}
+.card:hover {
+    border-color: #2d6a4f;
+}
+
+.icon {
+    font-size: 48px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 22px;
+}
+.card p:nth-child(3) {
+    font-size: 15px;
+    flex: 1;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price strong {
+    font-size: 16px;
+}
+.price button {
+    background-color: #f4a261;
+    color: #ffffff;
+    border: none;
+    padding: 6px 14px;
+    font-size: 14px;
+}
+.price button:hover {
+    background-color: #e76f51;
+}
+
+.step {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+}
+.step li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background-color: #ffffff;
+    padding: 24px;
+}
+.step h3 {
+    font-size: 20px;
+}
+.step p {
+    font-size: 15px;
+}
+
+.num {
+    width: 40px;
+    height: 40px;
+    background-color: #2d6a4f;
+    color: #ffffff;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+.tags li {
+    background-color: #d8f3dc;
+    color: #2d6a4f;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px 150px;
+    gap: 16px;
+}
+.gallery li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #ffffff;
+    border: 1px solid #D8F3DC;
+}
+.gallery li:hover {
+    border-color: #2d6a4f;
+}
+
+.emoji {
+    font-size: 40px;
+}
+.gallery h3 {
+    font-size: 20px;
+}
+
+.gallery li:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #2d6a4f;
+    color: #ffffff;
+    border: none;
+}
+.gallery li:nth-child(1) .emoji {
+    font-size: 80px;
+}
+
+#news form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 24px;
+}
+#news label {
+    font-weight: 700;
+    font-size: 16px;
+}
+#news input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #999999;
+    font-size: 14px;
+}
+#news select {
+    padding: 10px 12px;
+    border: 1px solid #cccccc;
+    background-color: #f0f0f0;
+    font-size: 14px;
+}
+#news button {
+    padding: 12px 20px;
+    background-color: #2d6a4f;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b4332;
+    color: #ffffff;
+    padding: 20px 40px;
+    margin-top: 48px;
+}
+footer p {
+    font-size: 14px;
+}
+
+.sns {
+    display: flex;
+    gap: 16px;
+}
+.sns a {
+    font-size: 14px;
+    font-weight: 700;
+}

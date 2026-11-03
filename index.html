@@ -3,9 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>초록 화분</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&amp;family=Noto+Sans+KR:wght@400;700&amp;display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <h1 class="logo">🌿 초록 화분</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">이달의 화분</a></li>
+                <li><a href="#">키우는법</a></li>
+                <li><a href="#">매장 둘러보기</a></li>
+                <li><a href="#">소식 받기</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <p class="sub">green pot shop</p>
+            <h2>책상 위에 작은 숲을 들여요</h2>
+            <p>처음 키워도 괜찮아요. 물 주는 날까지 알려드려요.</p>
+            <div class="btn-wrap">
+                <a href="#" class="btn">화분 구경하기</a>
+                <a href="#" class="btn line">키우는법 보기</a>
+            </div>
+        </section>
+        <section id="plants">
+            <h2>이달의 화분</h2>
+            <div class="cards">
+                <article class="card">
+                    <p class="icon">🌵</p>
+                    <h3>미니선인장</h3>
+                    <p>한 달에 한 번만 물을 주면 돼요.</p>
+                    <p class="price">
+                        <strong>8,000원</strong>
+                        <button>담기</button>
+                    </p>
+                </article>
+                <article class="card">
+                    <p class="icon">🪴</p>
+                    <h3>몬스테라</h3>
+                    <p>잎이 크고 시원해서 거실에 두기 좋아요. 새 잎이 날 때마다 구멍이 하나씩 늘어나는 걸 보는 재미가 있어요.</p>
+                    <p class="price">
+                        <strong>25,000원</strong>
+                        <button>담기</button>
+                    </p>
+                </article>
+                <article class="card">
+                    <p class="icon">🌱</p>
+                    <h3>스투키</h3>
+                    <p>밤에도 공기를 맑게 해 줘서 침실에 딱이에요.</p>
+                    <p class="price">
+                        <strong>15,000원</strong>
+                        <button>담기</button>
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section id="care">
+            <h2>키우는 법 3단계</h2>
+            <ol class="step">
+                <li>
+                    <span class="num">1</span>
+                    <h3>빛</h3>
+                    <p>밝은 창가에 두어요</p>
+                </li>
+                <li>
+                    <span class="num">2</span>
+                    <h3>물</h3>
+                    <p>흙이 마르면 듬뿍 줘요</p>
+                </li>
+                <li>
+                    <span class="num">3</span>
+                    <h3>바람</h3>
+                    <p>하루에 한번 창문을 열어요</p>
+                </li>
+            </ol>
+            <ul class="tags">
+                <li>#초보 추천</li>
+                <li>#물 적게</li>
+                <li>#공기 정화</li>
+                <li>#반려동물 안전</li>
+                <li>#그늘에서도 OK</li>
+                <li>#선물용</li>
+                <li>#작은 화분</li>
+                <li>#사무실</li>
+                <li>#침실</li>
+                <li>#빠른 배송</li>
+                <li>#분갈이 무료</li>
+                <li>#물 주기 알림</li>
+            </ul>
+        </section>
+        <section id="shop">
+            <h2>매장 둘러보기</h2>
+            <ul class="gallery">
+                <li>
+                    <p class="emoji">
+                        🏡
+                    </p>
+                    <h3>성수동 본점</h3>
+                    <p>화분 200종이 기다려요</p>
+                </li>
+                <li>
+                    <p class="emoji">
+                        🌻
+                    </p>
+                    <h3>분갈이 코너</h3>
+                </li>
+                <li>
+                    <p class="emoji">
+                        🎁
+                    </p>
+                    <h3>선물포장</h3>
+                </li>
+                <li>
+                    <p class="emoji">
+                        ☕
+                    </p>
+                    <h3>식물카페</h3>
+                </li>
+                <li>
+                    <p class="emoji">
+                        🧑‍🌾
+                    </p>
+                    <h3>원데이 클래스</h3>
+                </li>
+            </ul>
+        </section>
+        <section id="news">
+            <h2>새 소식 받기</h2>
+            <form>
+                <label for="email">이메일</label>
+                <input type="email" name="email" id="email" placeholder="green@pot.com">
+                <select name="cycle">
+                    <option value="weeks">매주</option>
+                    <option value="monthly">매달</option>
+                </select>
+                <button type="submit">구독하기</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 초록 화분</p>
+        <ul class="sns">
+            <li><a href="#">인스타그램</a></li>
+            <li><a href="#">블로그</a></li>
+            <li><a href="#">고객센터</a></li>
+        </ul>
+    </footer>
 </body>
+
 </html>
