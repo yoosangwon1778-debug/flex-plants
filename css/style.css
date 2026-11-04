@@ -120,9 +120,21 @@ header {
     background-color: #ffffff;
     border: 1px solid #d8f3dc;
     padding: 24px;
+    position: relative;
 }
 .card:hover {
     border-color: #2d6a4f;
+}
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #e63946;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 12px;
 }
 
 .icon {
