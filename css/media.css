@@ -1,0 +1,57 @@
+@media screen and (max-width:767px) {
+    header {
+        flex-direction: column;
+        gap: 8px;
+        padding: 12px 20px;
+    }
+    .logo {
+        font-size: 24px;
+    }
+    .menu {
+        gap: 16px;
+    }
+    .menu a {
+        font-size: 14px;
+    }
+    main {
+        padding: 0 20px 40px;
+    }
+    .hero {
+        height: 50vh;
+        padding: 0 20px;
+    }
+    .hero h2 {font-size: 24px;}
+
+    #plants h2, #care h2, #shop h2, #news h2 {
+        font-size: 24px;
+        margin: 32px 0 12px;
+    }
+    .cards {flex-direction: column;}
+    .step {grid-template-columns: 1fr;}
+
+    .gallery {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 160px 140px 140px;
+    }
+    .gallery li:nth-child(1) {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    #news form {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+        padding: 0;
+    }
+    footer {
+        flex-direction: column;
+        gap: 8px;
+        padding: 20px;
+    }
+    .top {
+        right: 16px;
+        bottom: 16px;
+        width: 48px;
+        height: 48px;
+    }
+}

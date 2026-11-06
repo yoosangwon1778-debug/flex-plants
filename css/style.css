@@ -31,15 +31,15 @@ main {
     margin: auto;
     padding: 0 40px 40px;
 }
-
-
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #2d6a4f;
     padding: 16px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .logo {
@@ -300,4 +300,24 @@ footer p {
 .sns a {
     font-size: 14px;
     font-weight: 700;
+}
+
+.top {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 100;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d6a4f;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.top:hover {
+    background-color: #1b4332;
 }
